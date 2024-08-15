@@ -1,0 +1,228 @@
+body
+{
+    margin: 0;
+    background-color: #433572;
+}
+
+@font-face 
+{
+    font-family: fontetit;
+    src: url(fonte/The\ Smile.otf);
+}
+
+@font-face 
+{
+    font-family: bitter;
+    src: url(fonte/Bittermilk.ttf);
+}
+
+@font-face {
+    font-family: fontefinal;
+    src: url(fonte/);
+}
+
+.titulo
+{
+    position: absolute;
+    color: aliceblue;
+    left: 38%;
+    top: 2%;
+    font-size: 25px;
+    font-family: fontetit;
+    background-color: #341e4d;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.texto
+{
+    position: absolute;
+    color: aliceblue;
+    left: 38%;
+    top: 25%;
+    font-size: 28px;
+    font-family: bitter;
+}
+
+mark
+{
+    background-color: red;
+    color: whitesmoke;
+    border-radius: 10%;
+}
+
+.imagem1
+{
+    position: absolute;
+    top: 107%;
+    left: 5%;
+}
+
+.imagem2
+{
+    position: absolute;
+    left: 2%;
+    top: 28%;
+}
+
+.imagem3
+{
+    position: absolute;
+    left: 75%;
+    top: 27%;
+}
+
+.imagem4
+{
+    position: absolute;
+    top: 107%;
+    left: 30%;
+}
+
+.imagem5
+{
+    position: absolute;
+    top: 107%;
+    left: 54%;
+}
+
+.imagem6
+{
+    position: absolute;
+    top: 107%;
+    left: 77%;
+}
+
+.texto2
+{
+    position: absolute;
+    color: aliceblue;
+    left: 35%;
+    top: 155%;
+    font-size: 28px;
+    font-family: bitter;
+}
+
+.ass
+{
+    position: absolute;
+    color: aliceblue;
+    left: 70%;
+    top: 220%;
+    font-size: 28px;
+    font-family: fontetit;
+}
+
+.titfial
+{
+    position: absolute;
+    color: aliceblue;
+    left: 30%;
+    top: 238%;
+    font-size: 46px;
+    font-family: fontetit;
+    background-color: #341e4d;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 1020px){
+    .titulo
+{
+    position: absolute;
+    color: aliceblue;
+    left: 24%;
+    top: 2%;
+    font-size: 12px;
+    font-family: fontetit;
+    background-color: #341e4d;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.texto
+{
+    position: absolute;
+    color: aliceblue;
+    left: 24%;
+    top: 16%;
+    font-size: 12px;
+    font-family: bitter;
+}
+
+.imagem1
+{
+    position: absolute;
+    top: 62%;
+    left: 0%;
+}
+
+.imagem2
+{
+    position: absolute;
+    left: 0%;
+    top: 124%;
+}
+
+.imagem3
+{
+    position: absolute;
+    left: 0%;
+    top: 214%;
+}
+
+.imagem4
+{
+    position: absolute;
+    top: 304%;
+    left: 0%;
+}
+
+.imagem5
+{
+    position: absolute;
+    top: 368%;
+    left: 3%;
+}
+
+.imagem6
+{
+    position: absolute;
+    top: 432%;
+    left: 6%;
+}
+
+.texto2
+{
+    position: absolute;
+    color: aliceblue;
+    left: 3%;
+    top: 493%;
+    font-size: 15px;
+    font-family: bitter;
+}
+
+.ass
+{
+    position: absolute;
+    color: aliceblue;
+    left: 70%;
+    top: 545%;
+    font-size: 15px;
+    font-family: fontetit;
+}
+
+.titfial
+{
+    position: absolute;
+    color: aliceblue;
+    left: 7%;
+    top: 551%;
+    font-size: 18px;
+    font-family: fontetit;
+    background-color: #341e4d;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+}
